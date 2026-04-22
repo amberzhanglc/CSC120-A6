@@ -37,3 +37,13 @@ Failed unit test: testSetOS
 ## Bug 10
 Brief description: The buy() method always creates and adds a hardcoded "2019 MacBook Pro" instead of preserving the information of the computer passed as a parameter.
 Failed unit test: testBuyAddsCorrectComputerInformation
+
+# Identifying more bugs (for the revision)
+
+## Bug 11
+Brief description: The refurbish() method sets the price of computers made between 2000 and 2011 to 2500 instead of the expected price 250.
+Failed unit test: testRefurbishSetsCorrectPriceForOlderComputer
+
+## Bug 12
+Brief description: The ResaleShop constructor incorrectly starts the inventory with a hardcoded computer instead of starting with an empty inventory.
+Failed unit test: testResaleShopStartsWithEmptyInventory
